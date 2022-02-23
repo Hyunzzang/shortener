@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  application:
+    name: url_shortener
+    profiles: local
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./url_shortener_db;AUTO_SERVER=TRUE
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /url_shortener_db
+
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.springframework: INFO
+    org.springframework.web.filter.CommonsRequestLoggingFilter: INFO
+    com.hyunzzang.financial.house: DEBUG

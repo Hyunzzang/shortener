@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd968acd-2173-4cd2-894c-33730203d33f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25UvmRY2Ff09Zczz8bh2fP7NO7V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.UrlRedirectControllerTest.redirectToOriginalUrl_성공">
+    <configuration name="ShortLinkRepositoryTest.저장_성공" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyun.shortener.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyun.shortener.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.hyun.shortener.repository.ShortLinkRepositoryTest" />
+      <option name="METHOD_NAME" value="저장_성공" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortenUrlBase62ServiceTest.bringOriginalUrl_성공" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyun.shortener.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyun.shortener.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hyun.shortener.service.ShortenUrlBase62ServiceTest" />
+      <option name="METHOD_NAME" value="bringOriginalUrl_성공" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortenUrlBase62ServiceTest.shortenUrl_언제나_같은_결과를_리턴_하는지" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyun.shortener.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyun.shortener.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hyun.shortener.service.ShortenUrlBase62ServiceTest" />
+      <option name="METHOD_NAME" value="shortenUrl_언제나_같은_결과를_리턴_하는지" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlRedirectControllerTest.redirectToOriginalUrl_성공" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyun.shortener.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyun.shortener.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hyun.shortener.controller.UrlRedirectControllerTest" />
+      <option name="METHOD_NAME" value="redirectToOriginalUrl_성공" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlRegisteredApiControllerTest.shortUrl_등록_성공" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyun.shortener.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyun.shortener.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hyun.shortener.controller.UrlRegisteredApiControllerTest" />
+      <option name="METHOD_NAME" value="shortUrl_등록_성공" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlShortenerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shortener" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyun.shortener.UrlShortenerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UrlRedirectControllerTest.redirectToOriginalUrl_성공" />
+        <item itemvalue="JUnit.UrlRegisteredApiControllerTest.shortUrl_등록_성공" />
+        <item itemvalue="JUnit.ShortenUrlBase62ServiceTest.bringOriginalUrl_성공" />
+        <item itemvalue="JUnit.ShortenUrlBase62ServiceTest.shortenUrl_언제나_같은_결과를_리턴_하는지" />
+        <item itemvalue="JUnit.ShortLinkRepositoryTest.저장_성공" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd968acd-2173-4cd2-894c-33730203d33f" name="Default Changelist" comment="" />
+      <created>1645594637596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645594637596</updated>
+      <workItem from="1645594641510" duration="4312000" />
+      <workItem from="1645599820697" duration="1308000" />
+      <workItem from="1645601893785" duration="9094000" />
+      <workItem from="1645616977951" duration="4314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="773" y="216" key="#Project_Structure" timestamp="1645621052429">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="773" y="216" key="#Project_Structure/0.25.1920.1090@0.25.1920.1090" timestamp="1645621052429" />
+    <state x="986" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1645613425029">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="986" y="267" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1090@0.25.1920.1090" timestamp="1645613425029" />
+    <state x="890" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1645601581564">
+      <screen x="0" y="25" width="1920" height="1091" />
+    </state>
+    <state x="890" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1920.1091@0.25.1920.1091" timestamp="1645601581564" />
+    <state width="1546" height="392" key="GridCell.Tab.0.bottom" timestamp="1645621667382">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1546" height="392" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1645621667382" />
+    <state width="1450" height="449" key="GridCell.Tab.0.bottom/0.25.1920.1091@0.25.1920.1091" timestamp="1645605208363" />
+    <state width="1546" height="392" key="GridCell.Tab.0.center" timestamp="1645621667381">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1546" height="392" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1645621667381" />
+    <state width="1450" height="449" key="GridCell.Tab.0.center/0.25.1920.1091@0.25.1920.1091" timestamp="1645605208362" />
+    <state width="1546" height="392" key="GridCell.Tab.0.left" timestamp="1645621667381">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1546" height="392" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1645621667381" />
+    <state width="1450" height="449" key="GridCell.Tab.0.left/0.25.1920.1091@0.25.1920.1091" timestamp="1645605208361" />
+    <state width="1546" height="392" key="GridCell.Tab.0.right" timestamp="1645621667381">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1546" height="392" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1645621667381" />
+    <state width="1450" height="449" key="GridCell.Tab.0.right/0.25.1920.1091@0.25.1920.1091" timestamp="1645605208363" />
+    <state width="1450" height="260" key="GridCell.Tab.1.bottom" timestamp="1645620696229">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1450" height="260" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1645620696229" />
+    <state width="1450" height="351" key="GridCell.Tab.1.bottom/0.25.1920.1091@0.25.1920.1091" timestamp="1645599770352" />
+    <state width="1450" height="260" key="GridCell.Tab.1.center" timestamp="1645620696228">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1450" height="260" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1645620696228" />
+    <state width="1450" height="351" key="GridCell.Tab.1.center/0.25.1920.1091@0.25.1920.1091" timestamp="1645599770352" />
+    <state width="1450" height="260" key="GridCell.Tab.1.left" timestamp="1645620696228">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1450" height="260" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1645620696228" />
+    <state width="1450" height="351" key="GridCell.Tab.1.left/0.25.1920.1091@0.25.1920.1091" timestamp="1645599770351" />
+    <state width="1450" height="260" key="GridCell.Tab.1.right" timestamp="1645620696229">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state width="1450" height="260" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1645620696229" />
+    <state width="1450" height="351" key="GridCell.Tab.1.right/0.25.1920.1091@0.25.1920.1091" timestamp="1645599770352" />
+    <state x="836" y="310" width="674" height="486" key="find.popup" timestamp="1645612773210">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="836" y="310" width="674" height="486" key="find.popup/0.25.1920.1090@0.25.1920.1090" timestamp="1645612773210" />
+    <state x="838" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1645594811799">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="838" y="263" width="670" height="676" key="search.everywhere.popup/0.25.1920.1090@0.25.1920.1090" timestamp="1645594811799" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hyun/shortener/util/UrlShortenerBase62Util.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
