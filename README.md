@@ -9,6 +9,10 @@
 - Shortening된 URL을 요청 받으면 원래 URL로 리다이렉트 합니다.
 - Database 사용은 필수가 아닙니다.
 
+## 참고
+- https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
+- https://stackoverflow.com/questions/742013/how-do-i-create-a-url-shortener
+
 ## 개발 프레임워크 
 * Java11
 * Spring boot

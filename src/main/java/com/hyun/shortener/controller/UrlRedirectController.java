@@ -5,8 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -21,9 +19,10 @@ public class UrlRedirectController {
 
     @GetMapping
     public ModelAndView redirectToOriginalUrl(@RequestParam("shortUrl") String shortUrl) {
+        // todo: 페이지가 없을 경우
         return ShortenUrlService.bringOriginalUrl(parsingShortUrl(shortUrl))
             .map(shortLink -> new ModelAndView("redirect:" + shortLink.getOriginalUrl()))
-            .orElseGet(() -> new ModelAndView("not found"));
+            .orElseGet(() -> new ModelAndView("notFound"));
     }
 
     private String parsingShortUrl(String shortUrl) {

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd968acd-2173-4cd2-894c-33730203d33f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/controller/UrlRedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/controller/UrlRedirectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/controller/UrlRegisteredApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/controller/UrlRegisteredApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/service/ShortenUrlBase62Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyun/shortener/service/ShortenUrlBase62Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/url_shortener_db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/url_shortener_db.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +160,7 @@
       <workItem from="1645601893785" duration="9094000" />
       <workItem from="1645616977951" duration="13322000" />
       <workItem from="1645687777762" duration="2026000" />
+      <workItem from="1645709767687" duration="329000" />
     </task>
     <servers />
   </component>
