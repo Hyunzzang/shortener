@@ -23,7 +23,7 @@
 
   * 소스를 내려 받는다.
   ```bash
-  $ git clone https://github.com/Hyunzzang/
+  $ git clone https://github.com/Hyunzzang/shortener.git
   ```
 
   * 프로젝트 디렉토리의 mvnw으로 빌드 (mac os)
@@ -44,3 +44,45 @@
   ```bash
   $ ./mvnw spring-boot:run
   ```
+
+
+### api 설명
+#### 1. URL 변환
+  * 정상적인 URL를 짧은 URL로 변경 하는 api
+  
+  > [POST] /api/v1/url/shorten
+  
+  > [Header] content-type: application/json
+  ```
+  [Request Body]
+  { 
+    "originalUrl": "원문 URL"
+  }
+  ```
+  ```
+  [Response Body]
+  { 
+    "shortUrl": "짭게 변경된 URL"
+  }
+  ```
+ 
+
+### 짧게 변경된 URL로 브라워저에서 접속하기 
+  > [GET] /redirect?shortUrl={짧게 변경된 url}
+
+
+### 테스트
+
+#### URL 변환 요청
+```
+curl -X POST http://localhost:8080/api/v1/url/shorten -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{ "originalUrl":"https://en.wikipedia.org/wiki/URL_shortening"}'
+```
+
+#### 변환 URL 접속하기
+  * 웹브라우저에서 리다이렉트로 접근
+  
+```
+웹브라워저 주소창에 입력
+
+http://localhost:8080/redirect?shortUrl=http://localhost/b
+```

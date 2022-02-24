@@ -26,6 +26,8 @@ public class ShortenUrlBase62Service implements ShortenUrlService {
     }
 
     private ShortLink saveShortLink(String originalUrl) {
+
+        // todo: shortUrl 이 중복 된다면?
         ShortLink shortLink = ShortLink.builder()
             .originalUrl(originalUrl)
             .build();
